@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Обо мне</title>
+  <style>
+    /* Общие настройки */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f7f3;
+      color: #333;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    /* Контейнер */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Заголовок */
+    h1 {
+      font-size: 2.2rem;
+      color: #4a4a4a;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    /* Изображение */
+    .profile-pic {
+      display: block;
+      margin: 0 auto 1.5rem;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #e0d9d0;
+    }
+
+    /* Основной текст */
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    /* Акцент на чувствах */
+    .highlight {
+      color: #6a7b8c;
+      font-style: italic;
+    }
+
+    /* Секция "Обо мне" */
+    .about-section {
+      margin-top: 2rem;
+    }
+
+    .about-section h2 {
+      font-size: 1.6rem;
+      color: #5a5a5a;
+      margin-bottom: 1rem;
+    }
+
+    /* Адаптивность */
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      .container {
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Привет, я...</h1>
+    <!-- Замени путь на своё фото или удали тег, если фото не нужно -->
+    <!-- <img src="profile.jpg" alt="Моё фото" class="profile-pic"> -->
+
+    <p>
+      Я — спокойный и сдержанный человек, который ценит глубину, искренность и тишину. 
+      Несмотря на внутреннюю тревожность в социальных ситуациях, мне интересно узнавать новое и общаться — особенно когда чувствую безопасность и доверие.
+    </p>
+
+    <p>
+      Мне важно личное пространство: тишина в моей комнате, когда дома никого нет, помогает мне восстановиться и услышать себя. 
+      Я верю, что проявление уязвимости — это не слабость, а сила, позволяющая быть настоящим.
+    </p>
+
+    <p>
+      Я учусь принимать свои чувства — и радость, и боль, и усталость — как части целого. 
+      Иногда мне трудно понять, кто я, но я доверяю этому процессу и знаю: ясность придёт со временем.
+    </p>
+
+    <div class="about-section">
+      <h2>Что меня вдохновляет</h2>
+      <p>
+        Добро, нежность, искренние разговоры, творчество и забота — о себе и других. 
+        Я стремлюсь к балансу между социальным участием и внутренней свободой, и учусь не винить себя за усталость.
+      </p>
+      <p>
+        Сейчас я активно учусь, пробую новое и постепенно учу себя отпускать страх быть непонятым. 
+        Я верю, что мир может быть добрым — даже если в нём есть боль.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
